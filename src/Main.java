@@ -7,7 +7,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter your birth month as an integer (1-12).");
-        if (scan.hasNextInt()) {
+        if (scan.hasNextInt()) { //verifying it is an int
             monthNum = scan.nextInt();
             switch (monthNum) {
                 case 1 ->
